@@ -403,7 +403,8 @@ The Vigenere cipher is a method of encrypting alphabetic text by using a series 
 ## PROGRAM:
 PROGRAM:
 ```
-#include<stdio.h> #include<string.h>
+#include<stdio.h>
+#include<string.h>
 //FunctiontoperformVigenereencryption voidvigenereEncrypt(char*text,constchar*key){ inttextLen= strlen(text);
 intkeyLen=strlen(key); for(inti =0;i< textLen;i++){ charc =text[i]; if(c>='A'&&c<='Z'){
 //Encryptuppercaseletters
@@ -474,7 +475,7 @@ In the rail fence cipher, the plaintext is written downwards and diagonally on s
 PROGRAM:
 ```c
 #include<stdio.h>
- #include<string.h>
+#include<string.h>
 #include<stdlib.h>
 main()
 {
